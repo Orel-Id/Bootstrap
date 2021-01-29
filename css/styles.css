@@ -1,10 +1,20 @@
-.logo{
-    background: url("../img/logo.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 200px;
+.divGaucheMenu{
+    width: 300px;
     height: 100%;
-    background: red;
+}
+.divMenuDroite{
+    width: 800px;
+    height: 100%;
+}
+.menu{
+    width: 50px;
+    height: 50px;
+    background: url("../ico/three-dots-vertical.svg") no-repeat left;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    background: url("../ico/bootstrap.svg") no-repeat center;
 }
 .boutons{
     width: 500px;
@@ -12,20 +22,20 @@
     border: white solid 1px;
 }
 #camera{
-    background: url("../ico/camera-video.svg") no-repeat;
+    background: url("../ico/camera-video.svg") no-repeat center;
 }
 #app{
-    background: url("../ico/camera-video.svg") no-repeat;
+    background: url("../ico/grid.svg") no-repeat center;
 }
 #notif{
-    background: url("../ico/camera-video.svg") no-repeat;
+    background: url("../ico/bell.svg") no-repeat center;
 }
 #profil{
-    background: url("../ico/camera-video.svg") no-repeat;
+    border-radius: 25px;
+    background: gray url("../ico/person.svg") no-repeat center;
 }
-.myBouton{
-    width: 30px;
-    height: 30px;
-    background-size: 100% auto;
 
+.myBouton{
+    width: 50px;
+    height: 50px;
 }
