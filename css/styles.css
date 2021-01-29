@@ -1,0 +1,31 @@
+.logo{
+    background: url("../img/logo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 100%;
+    background: red;
+}
+.boutons{
+    width: 500px;
+    height: 100%;
+    border: white solid 1px;
+}
+#camera{
+    background: url("../ico/camera-video.svg") no-repeat;
+}
+#app{
+    background: url("../ico/camera-video.svg") no-repeat;
+}
+#notif{
+    background: url("../ico/camera-video.svg") no-repeat;
+}
+#profil{
+    background: url("../ico/camera-video.svg") no-repeat;
+}
+.myBouton{
+    width: 30px;
+    height: 30px;
+    background-size: 100% auto;
+
+}
